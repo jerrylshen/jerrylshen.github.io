@@ -103,3 +103,22 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+
+/*
+ * Blog posts
+ */
+
+/* Add a card effect for articles */
+.card {
+   background-color: dimgray;
+   padding: 0px;
+   margin-top: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
